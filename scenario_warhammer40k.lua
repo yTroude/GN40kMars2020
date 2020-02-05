@@ -72,8 +72,12 @@ function initTarkusMap()
     Asteroid():setPosition(-40099, 3958)
     Asteroid():setPosition(-39927, 5593)
     Asteroid():setPosition(-12821, -32097)
-    Planet():setPosition(-19688, -20403)
+    Planet():setPosition(-19688, -20403):setPlanetSurfaceTexture("planets/planet-1.png"):setPlanetCloudTexture("planets/clouds-1.png"):setPlanetAtmosphereTexture("planets/atmosphere.png"):setPlanetAtmosphereColor(0.2,0.2,1.0)
+    Planet():setPosition(160128, 159741):setPlanetSurfaceTexture("planets/star-1.png")
+    --tarkusPlanet:setOrbit(tarkusSun, 40)
 end
+
+
 
 function init()
     player = PlayerSpaceship():setFaction("Human Navy"):setTemplate("Atlantis")
