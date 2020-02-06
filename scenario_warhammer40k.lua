@@ -775,10 +775,16 @@ function initWarpMap()
     Nebula():setPosition(-160510, -5118344)
 end
 
+function initThetaMap()
+    Planet():setPosition(2531022, 2530102):setPlanetSurfaceTexture("planets/icons/Red-Planet-1.png"):setDescription("Espilon II")
+    SpaceStation():setTemplate("Medium Station"):setFaction("Independant"):setCallSign("DS849"):setPosition(2562414, 2542657):setDescription("Station Adeptus mechanicus")
+end
+
 function init()
     player = PlayerSpaceship():setFaction("Human Navy"):setTemplate("Atlantis")
     initTarkusMap()
     initWarpMap()
+    initThetaMap()
 end
 
 function update(delta)
