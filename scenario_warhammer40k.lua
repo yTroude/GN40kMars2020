@@ -776,7 +776,7 @@ function initWarpMap()
 end
 
 function initThetaMap()
-    Planet():setPosition(2531022, 2530102):setPlanetSurfaceTexture("planets/icons/Red-Planet-1.png"):setDescription("Espilon II")
+    Planet():setPosition(2531022, 2530102):setPlanetSurfaceTexture("colors/ff0000.png"):setDescription("Espilon II")
     SpaceStation():setTemplate("Medium Station"):setFaction("Independant"):setCallSign("DS849"):setPosition(2562414, 2542657):setDescription("Station Adeptus mechanicus")
 end
 
